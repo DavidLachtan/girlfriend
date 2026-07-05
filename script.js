@@ -55,14 +55,14 @@ yes.onclick = async () => {
     text.innerHTML = "❤️ Awww, díky ❤️";
 
     try {
-        await fetch("https://ntfy.sh/OOMMGG", {
+        await fetch("https://ntfy.sh/gf", {
             method: "POST",
             headers: {
-                "Title": "VYHRAL JSI :D",
+                "Title": "ano",
                 "Priority": "5",
                 "Tags": "heart,partying_face"
             },
-            body: "REKLA ANO!"
+            body: "nekdo rekl ano"
         });
     } catch (e) {
         console.log(e);
